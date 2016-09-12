@@ -1,23 +1,31 @@
 body {
-  background-color: #FFF;
+  background-color: #EEE;
 }
 
 h1, h2, h3, h4 {
+  margin: 0px;
   text-align: center;
-  font-family: 'Droid Serif', serif;
+  /*font-family: 'Droid Serif', serif;*/
+  font-family: 'Arima Madurai', serif;
 }
 
-/*Photos*/
+h1 {
+  font-size: 4em;
+  color: darkgreen;
+}
 
-img {
-  padding: 15px;
+.photo-card {
+  background-color: #FFF;
   box-shadow: 0 3px 6px 0 #BBB, 0 6px 10px 0 #EEE;
   border: 1px solid #EEE;
   display: block;
   margin: auto;
+  padding: 12px;
+  max-width: 50%;
 }
 
 #engagement {
-  max-width: 50%;
+  border: 1px solid #EEE;
+  max-width: 100%;
   height: auto;
 }
