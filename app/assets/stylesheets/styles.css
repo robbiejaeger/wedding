@@ -5,7 +5,6 @@ body {
 h1, h2, h3, h4 {
   margin: 0px;
   text-align: center;
-  /*font-family: 'Droid Serif', serif;*/
   font-family: 'Arima Madurai', serif;
 }
 
@@ -20,6 +19,7 @@ h1 {
   border: 1px solid #EEE;
   display: block;
   margin: auto;
+  margin-top: 40px;
   padding: 12px;
   max-width: 50%;
 }
